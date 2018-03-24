@@ -18,11 +18,11 @@
     "NEEO"
   ],
   "dependencies": {
+    "isarray": "2.0.2",
     "jayson": "2.0.5",
-    "super": "0.2.3",
+    "neeo-sdk": "git+https://github.com/NEEOInc/neeo-sdk.git",
     "request": "2.83.0",
-    "neeo-sdk": "*",
-    "isarray": "2.0.2"
+    "super": "0.2.3"
   },
   "author": "Cédric Legendre",
   "license": "MIT",

@@ -1,0 +1,5 @@
+docker build -t abeggled/neeo_driver_squeezebox .
+
+docker run --name='neeosqueeze9010' --hostname='neeosqueeze9010' -v /opt/neeo_driver_squeezebox/config:/usr/src/app/config -d -p 9010:9010 abeggled/neeo_driver_squeezebox:latest
+
+

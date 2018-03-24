@@ -196,7 +196,7 @@ class Controller {
      */
     update(){
         this.updateStatus().then( this.updateStatusComponents.bind( this ) );
-        this.updateRemoteMeta().then( this.updateRemoteMetaComponents.bind( this ) );
+        //this.updateRemoteMeta().then( this.updateRemoteMetaComponents.bind( this ) );
     }
 
     /**
@@ -215,7 +215,7 @@ class Controller {
     /**
      * Updates the internal cache of player remote meta.
      */
-    updateRemoteMeta(){
+    /*updateRemoteMeta(){
         return new Promise( (resolve, reject) => {
             this.player.getCurrentRemoteMeta( ({result}) => {
                     this._cache = result;
@@ -223,7 +223,7 @@ class Controller {
                 resolve( this._cache );
             } );
         } );
-    }
+    }*/
 
     /**
      * Updates power mode and sliders
